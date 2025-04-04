@@ -30,6 +30,17 @@ function Footer() {
                         </a>
                     </div>
                 </div>
+                <div className='contacts'>
+                    <div class="contact-row">
+                        <p>Email</p>
+                        <a target="_blank" href="jeffery.lin@student.tdsb.on.ca">
+                            <img class="email-logo" src="emailLogo.png" alt="email logo" />
+                        </a>
+                    </div>
+                    <div class="contact-row">
+                        <p>Phone: 123-321-4567</p>
+                    </div>
+                </div>
             </div>
             <p className="copywrite">&copy; 2025 Stream City</p>
         </div>
