@@ -1,5 +1,9 @@
 import './Footer.css';
 import logoImage from '../assets/logo.png';
+import githubIcon from '../assets/github.png';
+import classroomLogo from '../assets/classroomLogo.png';
+import assignmentLogo from '../assets/assignmentLogo.png';
+import emailLogo from '../assets/emailLogo.png'
 
 function Footer() {
     return (
@@ -12,21 +16,21 @@ function Footer() {
                 <div className='links'>
                     <div className='link-row'>
                         <p>Github</p>
-                        <a href="https://github.com/Jeffery0000/Assignment2" target="_blank">
-                            <img className="github-icon" src="github.png" alt="github icon" />
+                        <a href="https://github.com/Jeffery0000/assignment5" target="_blank">
+                            <img className="github-icon" src={githubIcon} alt="github icon" />
                         </a>
                     </div>
                     <div className='link-row'>
                         <p>Classroom</p>
                         <a href="https://classroom.google.com/u/1/c/NzQ3OTAzODQ0Mzcz" target="_blank">
-                            <img className="classroom-logo" src="classroomLogo.png" alt="classroom logo" />
+                            <img className="classroom-logo" src={classroomLogo} alt="classroom logo" />
                         </a>
                     </div>
                     <div className='link-row'>
                         <p>Assignment page</p>
-                        <a href="https://classroom.google.com/u/0/c/NzQ3OTAzODQ0Mzcz/a/NzM3Nzc1MTIxNzYx/details"
+                        <a href="https://classroom.google.com/u/0/c/NzQ3OTAzODQ0Mzcz/a/NzUzNDU2MTcxMzIx/details"
                             target="_blank">
-                            <img className="assignment-logo" src="assignmentLogo.png" alt="assignment Logo" />
+                            <img className="assignment-logo" src={assignmentLogo} alt="assignment Logo" />
                         </a>
                     </div>
                 </div>
@@ -34,7 +38,7 @@ function Footer() {
                     <div class="contact-row">
                         <p>Email</p>
                         <a target="_blank" href="jeffery.lin@student.tdsb.on.ca">
-                            <img class="email-logo" src="emailLogo.png" alt="email logo" />
+                            <img class="email-logo" src={emailLogo} alt="email logo" />
                         </a>
                     </div>
                     <div class="contact-row">

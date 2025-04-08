@@ -24,7 +24,7 @@
     gap: 2vw;
 }
 
-.logo-image {
+.header .logo-image {
     width: 5rem;
     height: auto;
     object-fit: cover;
