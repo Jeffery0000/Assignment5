@@ -13,16 +13,19 @@ function Featured() {
         getData();
     }, []);
 
-    console.log(movies);
+    const randomMovies = movies && [...movies].sort(() => Math.random() - 0.5).slice(0, 5);
 
     return (
         <div className='featured'>
-            {movies && movies.map(movie => (
-                <div className="movie-card" key={movie.id}>
-                    <h1>{`${movie.title}`}</h1>
-                    <img className="movie-poster" src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`} alt={`${movie.id}`} />
-                </div>
-            ))}
+            <h1 class="featured-header">Featured Movies</h1>
+            <div className='featured-movies'>
+                {randomMovies && randomMovies.map(movie => (
+                    <div className="movie-card" key={movie.id}>
+                        <img className="movie-poster" src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`} alt={`${movie.id}`} />
+                        <h1 className='movie-title'>{`${movie.title}`}</h1>
+                    </div>
+                ))}
+            </div>
         </div>
     );
 }
