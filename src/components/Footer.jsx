@@ -35,13 +35,13 @@ function Footer() {
                     </div>
                 </div>
                 <div className='contacts'>
-                    <div class="contact-row">
+                    <div className="contact-row">
                         <p>Email</p>
                         <a target="_blank" href="jeffery.lin@student.tdsb.on.ca">
-                            <img class="email-logo" src={emailLogo} alt="email logo" />
+                            <img className="email-logo" src={emailLogo} alt="email logo" />
                         </a>
                     </div>
-                    <div class="contact-row">
+                    <div className="contact-row">
                         <p>Phone: 123-321-4567</p>
                     </div>
                 </div>

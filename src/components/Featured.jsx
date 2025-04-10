@@ -17,7 +17,7 @@ function Featured() {
 
     return (
         <div className='featured'>
-            <h1 class="featured-header">Featured Movies</h1>
+            <h1 className="featured-header">Featured Movies</h1>
             <div className='featured-movies'>
                 {randomMovies && randomMovies.map(movie => (
                     <div className="movie-card" key={movie.id}>
