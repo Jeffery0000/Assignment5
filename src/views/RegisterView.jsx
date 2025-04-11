@@ -8,7 +8,7 @@ function RegisterView() {
     const handleRegister = (e) => {
         e.preventDefault();
         navigate('/login');
-    }
+    };
 
     return (
         <div className='register'>
