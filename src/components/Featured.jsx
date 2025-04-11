@@ -16,7 +16,7 @@ function Featured() {
     const randomMovies = movies && [...movies].sort(() => Math.random() - 0.5).slice(0, 5);
 
     return (
-        <div className='featured'>
+        <div className='featured' id='featured'>
             <h1 className="featured-header">Featured Movies</h1>
             <div className='featured-movies'>
                 {randomMovies && randomMovies.map(movie => (

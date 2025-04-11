@@ -4,7 +4,7 @@ import heroImage from '../assets/hero1.jpg';
 function Hero() {
 
     return (
-        <div className='hero'>
+        <div className='hero' id='hero'>
             <img className="hero-image" src={heroImage} alt="Hero Image" />
             <div className="hero-content">
                 <h2>Welcome to Stream City</h2>

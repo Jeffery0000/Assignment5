@@ -6,8 +6,9 @@ import assignmentLogo from '../assets/assignmentLogo.png';
 import emailLogo from '../assets/emailLogo.png'
 
 function Footer() {
+    
     return (
-        <div className='footer'>
+        <div className='footer' id='footer'>
             <div className="title">
                 <h1>Stream City</h1>
                 <img className="logo-image" src={logoImage} alt="Logo Image" />
