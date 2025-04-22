@@ -11,11 +11,6 @@ function Header() {
                 <h1>Stream City</h1>
                 <img className="logo-image" src={logoImage} alt="Logo Image" />
             </div>
-            <div className="nav-bar">
-                <a onClick={() => navigate('/')} href="#hero">Home</a>
-                <a href="#featured">Featured</a>
-                <a href="#footer">Contact</a>
-            </div>
             <div className="login-buttons">
                 <button onClick={() => navigate("/login")}>Login</button>
                 <button onClick={() => navigate("/register")}>Register</button>

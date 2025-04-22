@@ -33,27 +33,6 @@
     border: 0.05rem solid white;
 }
 
-.nav-bar {
-    display: flex;
-    gap: 2rem;
-    align-items: center;
-}
-
-.nav-bar a {
-    color: white;
-    text-decoration: none;
-    font-size: 1.1rem;
-    font-weight: 600;
-    padding: 0.5rem 1rem;
-    border-radius: 4px;
-    transition: background-color 0.3s, color 0.3s;
-}
-
-.nav-bar a:hover {
-    background-color: rgba(255, 255, 255, 0.2);
-    color: #fff;
-}
-
 .login-buttons {
     display: flex;
     gap: 1rem;
