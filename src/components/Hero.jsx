@@ -12,6 +12,6 @@ function Hero() {
             </div>
         </div>
     );
-}
+} //test
 
 export default Hero;
