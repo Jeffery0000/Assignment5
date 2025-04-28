@@ -32,12 +32,12 @@ function DetailView() {
                     <h1 className="movie-title">{movie.original_title}</h1>
                     <p className="movie-overview">{movie.overview}</p>
                     <div className="movie-info">
-                        <p><strong>Release Date:</strong> {movie.release_date}</p>
-                        <p><strong>Runtime:</strong> {movie.runtime} minutes</p>
-                        <p><strong>Language:</strong> {movie.original_language}</p>
-                        <p><strong>Rating:</strong> {movie.vote_average}</p>
-                        <p><strong>Popularity:</strong> {movie.popularity}</p>
-                        <p><strong>Box Office:</strong> {movie.revenue}$</p>
+                        <p>Release Date: {movie.release_date}</p>
+                        <p>Runtime: {movie.runtime} minutes</p>
+                        <p>Language: {movie.original_language}</p>
+                        <p>Rating: {movie.vote_average}</p>
+                        <p>Popularity: {movie.popularity}</p>
+                        <p>Box Office: {movie.revenue}$</p>
                     </div>
                 </div>
                 {movie.poster_path && (

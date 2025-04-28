@@ -1,4 +1,4 @@
-.copywrite {
+.footer .copywrite {
     text-align: center;
 }
 
@@ -48,14 +48,14 @@
     width: 5vw;
 }
 
-.footer-columns {
+.footer .footer-columns {
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
     margin-bottom: 2rem;
 }
 
-.links {
+.footer .links {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
@@ -70,7 +70,7 @@
     margin: 0.5rem;
 }
 
-.contacts {
+.footer .contacts {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
