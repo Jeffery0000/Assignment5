@@ -21,7 +21,7 @@ function MoviesView() {
     return (
         <div className='movies'>
             <Header />
-            <Genres genresList={genres}/>
+            <Genres genresList={genres} />
             <div className='genre-movies'>
                 <Outlet />
             </div>

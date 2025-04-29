@@ -17,7 +17,7 @@
     z-index: 1;
 }
 
-.featured-header {
+.featured .featured-header {
     padding-left: 6vw;
     text-align: left;
     color: white;
@@ -26,21 +26,26 @@
     letter-spacing: 0.125em;
 }
 
-.movie-card {
+.featured .movie-card {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 0.5rem;
+    transition: transform 0.3s ease;
 }
 
-.featured-movies {
+.featured .movie-card:hover {
+    transform: scale(1.05);
+}
+
+.featured .featured-movies {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 1rem;
     padding: 1rem 2rem;
 }
 
-.movie-poster {
+.featured .movie-poster {
     width: 100%;
     max-width: 15vw;
     height: 25vw;
@@ -48,7 +53,7 @@
     border-radius: 1rem;
 }
 
-.movie-title {
+.featured .movie-title {
     font-family: 'Arial', sans-serif;
     font-weight: bold;
     text-align: center;
