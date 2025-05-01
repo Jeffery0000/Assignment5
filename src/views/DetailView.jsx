@@ -24,7 +24,6 @@ function DetailView() {
         fetchMovieDetails();
     }, [id]);
 
-
     return (
         <div className='detail-view'>
             <div className="movie-content">
@@ -32,12 +31,13 @@ function DetailView() {
                     <h1 className="movie-title">{movie.original_title}</h1>
                     <p className="movie-overview">{movie.overview}</p>
                     <div className="movie-info">
-                        <p>Release Date: {movie.release_date}</p>
-                        <p>Runtime: {movie.runtime} minutes</p>
+                        <p>Status: {movie.status}</p>
                         <p>Language: {movie.original_language}</p>
+                        <p>Runtime: {movie.runtime} minutes</p>
+                        <p>Release Date: {movie.release_date}</p>
                         <p>Rating: {movie.vote_average}</p>
                         <p>Popularity: {movie.popularity}</p>
-                        <p>Box Office: {movie.revenue}$</p>
+                        <p>Box Office: ${movie.revenue}</p>
                     </div>
                 </div>
                 {movie.poster_path && (
